@@ -1,0 +1,2 @@
+let tempe = parseInt(prompt("ingrese la temperatura"));
+(tempe<15)? alert("frio"): (tempe >15 && tempe>25)? alert ("agradable"): (tempe>26 && tempe<35)? alert("caluroso"): (tempe>35)? alert("muy caluroso"): alert("digite un numero");
